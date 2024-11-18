@@ -10,11 +10,11 @@
       },
       {
         "source": "/",
-        "destination": "https://dyne-dashboard-frontend.vercel.app"
+        "destination": "https://frd-dynedash-astro.vercel.app"
       },
       {
         "source": "/:match*",
-        "destination": "https://dyne-dashboard-frontend.vercel.app/:match*"
+        "destination": "https://frd-dynedash-astro.vercel.app/:match*"
       }
     ]
   }
