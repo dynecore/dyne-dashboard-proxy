@@ -2,7 +2,11 @@
     "rewrites": [
       {
         "source": "/api",
-        "destination": "https://dyne-dashboard-express.vercel.app/api/data"
+        "destination": "https://dyne-dashboard-express.vercel.app/api"
+      },
+      {
+        "source": "/api/:match*",
+        "destination": "https://dyne-dashboard-express.vercel.app/api/:match*"
       },
       {
         "source": "/",
